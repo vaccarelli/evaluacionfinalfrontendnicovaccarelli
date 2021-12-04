@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-body {
-    font-family: Inter;
-}
 
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
 
 }
 
@@ -60,16 +55,19 @@ body {
     margin-top: 30px;
 }
 
+h1,
+h2 {
+    font-weight: bold;
+}
+
 .caja2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-
+    margin-right: 120px;
 }
 
-
-
-button {
+button  {
     width: 120px;
     height: 40px;
     border: none;
@@ -79,6 +77,12 @@ button {
     border-radius: 50px;
 }
 
+button:nth-of-type(4) {
+    color: #F3603B;
+    background: white;
+}
+
+
 
 .caja31, 
 .caja32 {
@@ -87,6 +91,17 @@ button {
     justify-content: space-around;
     flex-direction: column;
 }
+
+p {
+    color: #B3B2B7;
+}
+
+ol.listacaja32 {
+    list-style-type: decimal;
+    list-style-image: ;
+
+}
+
 
 .contenedor4 {
     display: flex;
@@ -137,7 +152,8 @@ button {
     align-items: center;
     padding: 50px;
     margin-top: 50px;
-    
+    color: white;
+          
 }
 
 
@@ -152,6 +168,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 250px;
+    color: white;
     
 }
 
@@ -171,10 +188,13 @@ footer {
     justify-content: space-around;
     align-items: center;
     
+    
 }
 
 .listafooter {
     list-style: none;
+    font-weight: 100;
+    font-size: 16px;
 }
 
 .parrafofooter {
